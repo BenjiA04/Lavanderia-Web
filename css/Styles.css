@@ -1,0 +1,74 @@
+
+        /* fondo suave para todo el cuerpo */
+        body {
+            background: #f9fafc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* header con degradado y sombra */
+        .topHeader {
+            background: linear-gradient(135deg, #cbd4e5 10%, #709ce7 80%);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+
+        /* links del menú con efecto hover y transición */
+        .Menu li a {
+            transition: color 0.3s, background 0.3s;
+            padding: 8px 12px;
+            border-radius: 6px;
+        }
+        .Menu li a:hover {
+            background: rgba(255,255,255,0.15);
+            color: #FFFFFF;
+        }
+
+        /* banner principal con mejor separación */
+        .BannerPrincipal {
+            padding: 40px 0;
+        }
+
+        /* tarjeta de solicitud con sombra más pronunciada y bordes redondeados */
+        .TarjetaSolicitud {
+            box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+            border-radius: 20px;
+            transition: transform 0.2s;
+        }
+        .TarjetaSolicitud:hover {
+            transform: translateY(-5px);
+        }
+
+        /* botón de envío más llamativo */
+        .TarjetaSolicitud button {
+            background: linear-gradient(135deg, #2a5298, #1e3c72);
+            border: none;
+            padding: 14px;
+            border-radius: 30px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background 0.3s, transform 0.2s;
+            cursor: pointer;
+        }
+        .TarjetaSolicitud button:hover {
+            background: linear-gradient(135deg, #1e3c72, #0f2b4f);
+            transform: scale(1.02);
+        }
+
+        /* sección de servicios con tarjetas más suaves */
+        .divServicios .Servicios {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+        .divServicios .Servicios:hover {
+            transform: translateY(-4px);
+        }
+
+        /* beneficios con iconos más grandes y color de acento */
+        .divBeneficios .Beneficios img {
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+        }
+        .divBeneficios .Beneficios h3 {
+            color: #1e3c72;
+        }
