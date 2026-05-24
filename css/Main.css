@@ -1,0 +1,24 @@
+
+:root{
+
+    --ColorPrincipal: #3B82F6;
+    --ColorFondo: #EFF6FF;
+    --ColorTexto: #1E3A8A;
+    --ColorTitulos: #111827;
+    --ColorTarjetas: #FFFFFF;
+    --ColorTextoSecundario: #374151;
+
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--ColorFondo);
+    color: var(--ColorTitulos);
+
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--ColorTitulos)
+}

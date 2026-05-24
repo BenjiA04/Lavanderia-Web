@@ -1,0 +1,104 @@
+.BannerPrincipal{
+    position: relative;
+}
+
+.TextoBanner{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 80px;
+    z-index: 1;
+}
+
+.TextoBanner h1{
+    font-size: 50px;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.TextoBanner h1 span {
+    display: block;
+
+    color: var(--ColorPrincipal);
+}
+
+.TextoBanner p{
+    max-width: 370px;
+    line-height: 1.6;
+
+    font-size: 20px;
+    color: var(--ColorTextoSecundario)
+}
+
+
+.ImagenBanner img{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+/* Formulario de solicitud */
+.TarjetaSolicitud {
+    background-color: var(--ColorTarjetas);
+    border-radius: 10px;
+
+    width: 650px;
+    position: absolute;
+    padding: 30px;
+    top: 40px;
+    right: 50px;
+}
+
+.TarjetaTitulo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.TarjetaTitulo img{
+    width: 40px;
+    height: 40px;
+}
+
+.divBtn p, .divBtnService p, .divBtnMessage p{
+    margin-bottom: 8px;
+}
+
+.divBtnService{
+    display: flex;
+    gap: 20%;
+}
+
+.divBtnMessage {
+    margin-bottom: 20px;
+}
+
+.divBtnMessage textarea {
+    height: 80px;
+    resize: none;
+}
+
+input, select, textarea{
+    width: 97%;
+    padding: 10px;
+
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+    outline: none;
+}
+
+select{
+    width: 230px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+
+    border-style: none;
+    border-radius: 5px;
+    color: var(--ColorTarjetas);
+    background-color: var(--ColorPrincipal);
+    
+    font-weight: 100;
+}
