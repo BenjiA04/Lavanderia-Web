@@ -1,4 +1,4 @@
-# LavaFácil
+# LavaYa
 
 Página web moderna para una lavandería desarrollada con HTML, CSS y JavaScript.
 
