@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/ServiceSection.css">
     <link rel="stylesheet" href="./css/Footer.css">
     <link rel="stylesheet" href="./css/Styles.css">
+    <script src="./js/action.js"></script>
     <title>LavaFacil</title>
 </head>
 <body>
@@ -60,7 +61,7 @@
                 <!-- Formulario -->
                 <div class="TarjetaSolicitud">
                 
-                    <form action="#">
+                    <form action="#" id="formSolicitud">
 
                         <div class="TarjetaTitulo">
                             <img src="./img/Iconos/Icono1.png" alt="Icono1.png">
@@ -69,23 +70,23 @@
 
                         <div class="divBtn">
                             <p>Nombre Completo</p>
-                            <input type="text" placeholder="Ej. Diego Jose">
+                            <input type="text" id="nombre" placeholder="Ej. Diego Jose">
                         </div>
 
                         <div class="divBtn">
                             <p>Teléfono</p>
-                            <input type="text" placeholder="Ej. 8098891614">
+                            <input type="text" id="telefono" placeholder="Ej. 8098891614">
                         </div>
 
                         <div class="divBtn">
                             <p>Dirección</p>
-                            <input type="text" placeholder="Ej. C/ 5, Los mina sur">
+                            <input type="text" id="direccion" placeholder="Ej. C/ 5, Los mina sur">
                         </div>
 
                         <div class="divBtnService">
                             <div>
                                 <p>Servicio</p>
-                                <select name="" id="">
+                                <select name="" id="servicio">
                                     <option value="">Selecciona un servicio</option>
                                     <option value="Lavado">Lavado</option>
                                     <option value="Secado">Secado</option>
@@ -99,7 +100,7 @@
                             </div>
                             <div>
                                 <p>Cantidad de ropa</p>
-                                <select name="" id="">
+                                <select name="" id="cantidad">
                                     <option value="">Selecciona una opcion</option>
                                     <option value="1-5">1 - 5 piezas</option>
                                     <option value="6-10">6 - 10 piezas</option>
@@ -111,12 +112,12 @@
 
                         <div class="divBtn">
                             <p>Fecha de entrega</p>
-                            <input type="date">
+                            <input type="date" id="fechaEntrega">
                         </div>
 
                         <div class="divBtnMessage">
                             <p>Observaciones (Opcional)</p>
-                            <textarea placeholder="Escriba aqui sus observaciones..."></textarea>
+                            <textarea id="observaciones" placeholder="Escriba aqui sus observaciones..."></textarea>
                         </div>
 
                         <button>
