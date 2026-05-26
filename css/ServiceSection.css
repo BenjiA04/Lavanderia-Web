@@ -85,8 +85,6 @@
     margin-top: 0;
 }
 
-<<<<<<< HEAD
-=======
 
 .divPromocion{
     display: flex;
@@ -108,4 +106,3 @@
 .divPromocion video:hover{
     transform: scale(1.01);
 }
->>>>>>> 65a0204 (Cuarto Commit desde git)
