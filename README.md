@@ -13,3 +13,6 @@ Página web moderna para una lavandería desarrollada con HTML, CSS y JavaScript
 - HTML5
 - CSS3
 - JavaScript
+
+---
+### Si quieres probar la web: https://benjia04.github.io/Lavanderia-Web/
